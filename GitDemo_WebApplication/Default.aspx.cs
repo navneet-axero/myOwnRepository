@@ -12,6 +12,9 @@ namespace GitDemo_WebApplication
         protected void Page_Load(object sender, EventArgs e)
         {
             Response.Write("My First Git Demo Web Application");
+            Response.Write("<script language=javascript>alert('done!');</script>");
+
+           
         }
     }
 }
